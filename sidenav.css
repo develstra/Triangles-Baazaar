@@ -26,16 +26,19 @@ img{
     font-size:15px;
     transition:1s;
     cursor:pointer;
+    background-color: #343434;
+    color:#fff;
   }
   .card-title i{  
     font-size:15px;
     transition:1s;
     cursor:pointer;
-    color:#ffa710
+    color:#fff;
+    
   }
   .card-title i:hover{
-    transform: scale(1.25) rotate(100deg); 
-    color:#18d4ca;
+    transform: scale(1.25) rotate(90deg); 
+    color:#fff;
     
   }
   .card:hover{
@@ -43,7 +46,9 @@ img{
     box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
   }
   .card-text{
-    height:80px;  
+    height:80px;
+    background-color: #343434;  
+    color:#fff;
   }
   
   .card::before, .card::after {
