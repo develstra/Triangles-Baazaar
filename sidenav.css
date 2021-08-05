@@ -21,13 +21,16 @@ img{
   .card{
     transition:0.5s;
     cursor:pointer;
+    background-color: #343434;
+    border: 1px solid white;
   }
   .card-title{  
-    font-size:15px;
+    font-size:20px;
     transition:1s;
     cursor:pointer;
     background-color: #343434;
     color:#fff;
+    
   }
   .card-title i{  
     font-size:15px;
@@ -49,6 +52,7 @@ img{
     height:80px;
     background-color: #343434;  
     color:#fff;
+    font-weight: 300;
   }
   
   .card::before, .card::after {
