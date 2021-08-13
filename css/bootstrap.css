@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #343434;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -4063,6 +4063,9 @@ input[type="button"].btn-block {
   appearance: none;
 }
 
+/* .slick-next{
+  display:contents;
+} */
 .custom-range:focus {
   outline: 0;
 }
